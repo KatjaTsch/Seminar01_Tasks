@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Tasks\Task_07\bin\Debug\net6.0\Task_07.exe
+C:\Users\user\Desktop\Tasks\Task_07\bin\Debug\net6.0\Task_07.deps.json
+C:\Users\user\Desktop\Tasks\Task_07\bin\Debug\net6.0\Task_07.runtimeconfig.json
+C:\Users\user\Desktop\Tasks\Task_07\bin\Debug\net6.0\Task_07.dll
+C:\Users\user\Desktop\Tasks\Task_07\bin\Debug\net6.0\Task_07.pdb
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.AssemblyInfo.cs
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.dll
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\refint\Task_07.dll
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.pdb
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\Task_07.genruntimeconfig.cache
+C:\Users\user\Desktop\Tasks\Task_07\obj\Debug\net6.0\ref\Task_07.dll
