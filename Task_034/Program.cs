@@ -17,9 +17,9 @@ int[] GetArray(int size, int minValue, int maxValue)
 int FindNumber(int[] array)
 {
     int countIndex = 0;
-    for (int i = 0; i <= array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] % 2 != 0)
+        if (array[i] % 2 == 0)
         {
             countIndex += 1;
         }
