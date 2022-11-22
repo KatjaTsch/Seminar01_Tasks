@@ -1,54 +1,38 @@
 ﻿// Задача 41: Пользователь вводит с клавиатуры M чисел.
 //Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
-int[] FillArray()
+void newArray(int[] GetArray)
 {
-    int[] a = new int[M];
-
-    for (int i = 0; i < a.Length; i++)
+    for(int i = 0; i < GetArray.Length; i++)
     {
-        Console.Write($"Введите {i} элемент массива: ");
-        a[i] = int.Parse(Console.ReadLine()!);
+        Console.Write($"Введите элемент массива под индексом {i}  ");
+        GetArray[i] = int.Parse(Console.ReadLine()!);
     }
-    return a;
 }
+
+String ArrayToString(int[] array)
+{
+    return "[" + String.Join(" , ", array) + "]";
+}
+
+int SumNum(int[] array)
+{
+    int sum = 0;
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(array[i] > 0) sum++;
+    }
+    return sum;
+}
+
 Console.Clear();
-
-int[] array = FillArray();
-for (int i = 0; i < array.Length; i++)
-{
-    int count = 0;
-    {
-        for (int i = 0; i < array.Length; i++)
-        {
-            if (array[i] > 0)
-            {
-                count = count + array[i];
-            }
-            return count;
-        }
-    }
-}
-
-int Num = int.Parse(Console.ReadLine()!);
-Console.WriteLine(String.Join(",", FillArray(Num)));
-
-
-//int Function(int M)
-//{
-//  int[] array = new int[M];
-//int count = 0;
-//{
-//  for (int i = 0; i < array.Length; i++)
-//{
-//  if (array[i] > 0)
-//{
-//  count = count + array[i];
-//}
-//return count;
-//  }
-//}
-//}
+Console.WriteLine($"Введите количество элементов массива");
+int numCount = int.Parse(Console.ReadLine()!);
+int[] GetArray = new int[numCount];
+newArray(GetArray);
+int Sum = SumNum(GetArray);
+Console.WriteLine(ArrayToString(GetArray));
+Console.WriteLine($"Количество положительных чисел: {Sum}");
 
 
 
