@@ -32,7 +32,7 @@ void PrintArray(int[,] inArray)
 
 int[,] FindElement(int[,] inArray, int find)
 {
-        for (int i = 0; i < inArray.GetLength(0); i++)
+    for (int i = 0; i < inArray.GetLength(0); i++)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
@@ -47,7 +47,7 @@ int[,] FindElement(int[,] inArray, int find)
         }
         Console.WriteLine();
     }
-        return inArray;
+    return inArray;
 }
 
 Console.Clear();
@@ -62,4 +62,4 @@ int find = int.Parse(Console.ReadLine()!);
 int[,] array = GetArray(rows, cols, 0, 10);
 PrintArray(array);
 
-int[,] Index = FindElement(array, 1);
+int[,] Index = FindElement(array, find);
